@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Ndumiso</title>
+    <script src="https://kit.fontawesome.com/6fcd0eade4.js" crossorigin="anonymous"></script>
+    <style>
+        /* Add this to your existing CSS */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        section {
+            scroll-margin-top: 80px;
+        }
+        
+        @media (max-width: 768px) {
+            section {
+                scroll-margin-top: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="NdumisoBG.png" alt="Ndumiso Logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="black-top-section">
+            <div class="profile-card">
+                <div class="profile-picture">
+                    <img src="./me.webp" alt="Profile Picture">
+                </div>
+                <h1>Ndumiso Maphanga</h1>
+                <p>Hello, I'm a Computer Science<br>
+                    Student, Graphic Designer and<br>
+                    Video Editor.</p>
+                <a href="#contact" class="btn">Contact <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </section>
+
+        <section id="services" class="gray-languages-section">
+            <h2>Languages I'm proficient in</h2>
+            <div class="language-track">
+                <div class="language-grid">
+                    <div class="language-item"><img src="./logos/C-logo.png" alt="C Language"></div>
+                    <div class="language-item"><img src="./logos/java.png" alt="Java"></div>
+                    <div class="language-item"><img src="./logos/Python-logo.png" alt="Python"></div>
+                    <div class="language-item"><img src="./logos/html-logo.png" alt="HTML"></div>
+                    <div class="language-item"><img src="./logos/css-logo.png" alt="CSS"></div>
+                    <div class="language-item"><img src="./logos/javascript-logo-0.png" alt="JavaScript"></div>
+                    <div class="language-item"><img src="./logos/sql.png" alt="SQL"></div>
+                    <div class="language-item"><img src="./logos/React.png" alt="React"></div>
+                    <div class="language-item"><img src="./logos/tw-logo.png" alt="tailwind"></div>
+                    <!-- Duplicate items for seamless looping -->
+                    <div class="language-item"><img src="./logos/C-logo.png" alt="C Language"></div>
+                    <div class="language-item"><img src="./logos/java.png" alt="Java"></div>
+                    <div class="language-item"><img src="./logos/Python-logo.png" alt="Python"></div>
+                    <div class="language-item"><img src="./logos/html-logo.png" alt="HTML"></div>
+                    <div class="language-item"><img src="./logos/css-logo.png" alt="CSS"></div>
+                    <div class="language-item"><img src="./logos/javascript-logo-0.png" alt="JavaScript"></div>
+                    <div class="language-item"><img src="./logos/sql.png" alt="SQL"></div>
+                    <div class="language-item"><img src="./logos/React.png" alt="React"></div>
+                    <div class="language-item"><img src="./logos/tw-logo.png" alt="tailwind"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Updated Portfolio Section -->
+<section class="portfolio-section">
+    <h2>My Portfolio</h2>
+    <div class="portfolio-grid">
+        <!-- Piano Web App Card -->
+        <div class="portfolio-card">
+            <div class="card-image">
+                <img src="./image.png" alt="Piano App" class="portfolio-img">
+            </div>
+            <div class="card-overlay">
+                <a href="https://your-piano-app-url.com" target="_blank" class="card-link">
+                    Click to see <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Weather App Card -->
+        <div class="portfolio-card">
+            <div class="card-image">
+                <img src="./aa4aeec1-71f4-43de-8980-f359e78d5c8b-cover.png" alt="Weather App" class="portfolio-img">
+            </div>
+            <div class="card-overlay">
+                <a href="https://your-weather-app-url.com" target="_blank" class="card-link">
+                    Click to see <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Translator Web App Card -->
+        <div class="portfolio-card">
+            <div class="card-image">
+                <img src="./Translation-Graphics-5614899-1-1-580x386.jpg" alt="Translator App" class="portfolio-img">
+            </div>
+            <div class="card-overlay">
+                <a href="https://your-translator-app-url.com" target="_blank" class="card-link">
+                    Click to see <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2>A little bit about me...</h2>
+                    <div class="about-card">
+                        <h3>Ndumiso Maphanga</h3>
+                        <p>I'm a Computer Science student at the University of the Witwatersrand, combining my technical expertise with creative passions as a graphic designer and video editor.</p>
+                        <p>With experience in programming languages like JavaScript, Python, C++, and Java, I enjoy crafting responsive websites and innovative digital solutions. Beyond coding, I thrive on creative expression through graphic design and video editing, while also engaging in philosophy, basketball, football, and meaningful interactions with diverse people.</p>
+                        <p>Whether I'm solving problems, exploring ideas, or creating visual stories, I'm always driven by curiosity and a desire to make an impact.</p>
+                        
+                        <div class="what-i-do">
+                            <h4>What I Do</h4>
+                            <ul>
+                                <li><i class="fas fa-paint-brush"></i> Graphic Designing</li>
+                                <li><i class="fas fa-code"></i> Web Design</li>
+                                <li><i class="fas fa-video"></i> Video Editing</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="#" class="resume-btn">
+                            Download Resume <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./me.webp" alt="Ndumiso Maphanga" class="profile-photo">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 class="contact-heading">Say Hello</h2>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> Johannesburg, Gauteng,<br>South Africa</p>
+                        <p><i class="fas fa-envelope"></i> mnsmaphanga@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +27 67 350 9278</p>
+                        
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        
+                        <h3 class="project-invite">Tell me about your next project.</h3>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="cool-form">
+                        <h3 class="form-title">Get In Touch</h3>
+                        
+                        <div class="input-group floating">
+                            <input type="text" id="name" required>
+                            <label for="name">Name *</label>
+                            <div class="underline"></div>
+                        </div>
+                        
+                        <div class="input-group floating">
+                            <input type="email" id="email" required>
+                            <label for="email">Email *</label>
+                            <div class="underline"></div>
+                        </div>
+                        
+                        <div class="input-group floating">
+                            <input type="text" id="subject" required>
+                            <label for="subject">Subject *</label>
+                            <div class="underline"></div>
+                        </div>
+                        
+                        <div class="input-group floating">
+                            <textarea id="message" required></textarea>
+                            <label for="message">Your Message *</label>
+                            <div class="underline"></div>
+                        </div>
+                        
+                        <button type="submit" class="glow-btn">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                            <span class="glow"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="contact-footer">
+                <p class="contact-label">CONTACT</p>
+                <p class="copyright slide-in">Copyright made by Ndumiso</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Profile card animation
+            const profileCard = document.querySelector(".profile-card");
+            if (profileCard) {
+                profileCard.style.transform = "translateY(50px)";
+                profileCard.style.opacity = "0";
+    
+                setTimeout(() => {
+                    profileCard.style.transition = "transform 1s ease, opacity 1s ease";
+                    profileCard.style.transform = "translateY(0)";
+                    profileCard.style.opacity = "1";
+                }, 100);
+            }
+    
+            // Mobile menu toggle - improved version
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('navLinks');
+            const body = document.body;
+    
+            if (hamburger && navLinks) {
+                hamburger.addEventListener('click', (e) => {
+                    e.stopPropagation(); // Prevent event bubbling
+                    navLinks.classList.toggle('active');
+                    hamburger.classList.toggle('active');
+                    body.classList.toggle('no-scroll');
+                });
+    
+                // Close menu when clicking anywhere outside
+                document.addEventListener('click', (e) => {
+                    if (navLinks.classList.contains('active') && 
+                        !e.target.closest('.nav-links') && 
+                        !e.target.closest('#hamburger')) {
+                        navLinks.classList.remove('active');
+                        hamburger.classList.remove('active');
+                        body.classList.remove('no-scroll');
+                    }
+                });
+    
+                // Close menu when clicking a link
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.addEventListener('click', () => {
+                        navLinks.classList.remove('active');
+                        hamburger.classList.remove('active');
+                        body.classList.remove('no-scroll');
+                    });
+                });
+            }
+    
+            // Pause animation on hover for better UX
+            const languageGrid = document.querySelector('.language-grid');
+            if (languageGrid) {
+                languageGrid.addEventListener('mouseenter', () => {
+                    languageGrid.style.animationPlayState = 'paused';
+                });
+                languageGrid.addEventListener('mouseleave', () => {
+                    languageGrid.style.animationPlayState = 'running';
+                });
+            }
+    
+            // Smooth scrolling for all navigation links
+            document.querySelectorAll('nav a').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Close mobile menu if open
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                        hamburger.classList.remove('active');
+                        body.classList.remove('no-scroll');
+                    }
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80, // Adjust for header height
+                            behavior: 'smooth'
+                        });
+                        
+                        // Update URL without jumping
+                        history.pushState(null, null, targetId);
+                    }
+                });
+            });
+    
+            // Image loading
+            document.querySelectorAll('.card-image img').forEach(img => {
+                img.addEventListener('load', function() {
+                    this.classList.add('loaded');
+                });
+                if (img.complete) img.classList.add('loaded');
+            });
+        });
+    </script>
+
+</body>
+</html>
