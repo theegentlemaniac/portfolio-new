@@ -1129,65 +1129,48 @@ textarea.form-input {
     100% { background-position: 0% 50%; }
 }
 
-/* Mobile Responsiveness */
+/* Mobile Responsiveness - Consolidated and Improved */
 @media (max-width: 768px) {
     .contact-form-wrapper {
-        padding: 30px 20px;
-    }
-    
-    .cool-form {
-        gap: 20px;
-    }
-    
-    .form-title {
-        font-size: 24px;
-    }
-    
-    .input-group input,
-    .input-group textarea {
-        padding: 12px 0;
-    }
-    
-    .glow-btn {
-        width: 100%;
-        padding: 12px 20px;
-    }
-}
-
-/* Mobile Responsiveness - Enhanced */
-@media (max-width: 768px) {
-    .contact-form-wrapper {
-        padding: 25px 15px;
+        padding: 25px 20px;
         border-radius: 15px;
         backdrop-filter: blur(5px);
-        margin: 0 10px;
-        width: calc(100% - 20px);
+        margin: 0 auto; /* Center the form */
+        width: 90%; /* Use percentage for better responsiveness */
+        max-width: 400px; /* Optional: set a max-width for very wide mobiles */
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        box-sizing: border-box; /* Include padding in width calculation */
     }
 
     .cool-form {
         gap: 15px;
+        width: 100%; /* Ensure form takes full width of wrapper */
     }
 
     .form-title {
         font-size: 22px;
         margin-bottom: 15px;
+        text-align: center; /* Center the title */
     }
 
     .form-title::after {
         width: 50px;
         height: 2px;
         bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%); /* Center the underline */
     }
 
     .input-group {
         margin-bottom: 10px;
+        width: 100%; /* Ensure full width */
     }
 
     .input-group input,
     .input-group textarea {
         padding: 12px 0;
         font-size: 15px;
+        width: 100%; /* Ensure full width */
     }
 
     .input-group label {
@@ -1218,8 +1201,8 @@ textarea.form-input {
 /* Extra Small Devices (Phones) */
 @media (max-width: 480px) {
     .contact-form-wrapper {
-        padding: 20px 12px;
-        border-radius: 12px;
+        padding: 20px 15px;
+        width: 95%; /* Slightly more margin on very small devices */
     }
 
     .form-title {
@@ -1259,12 +1242,17 @@ textarea.form-input {
     .cool-form {
         gap: 12px;
     }
+    
+    .contact-form-wrapper {
+        width: 80%; /* Slightly wider in landscape */
+        max-width: 450px;
+    }
 }
 
 /* Tall Mobile Devices (e.g. iPhone 12/13 Mini) */
 @media (max-width: 375px) and (max-height: 700px) {
     .contact-form-wrapper {
-        padding: 15px 10px;
+        padding: 15px 12px;
     }
     
     .form-title {
